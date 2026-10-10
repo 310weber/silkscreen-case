@@ -32,6 +32,21 @@ references when generating concepts.
 - Save draft images for the user to review under `.amp/in/artifacts/`.
 - Once the user approves a concept, copy it to `concepts/` as `NN-name.png` and commit it.
 
+## 3D printing constraints
+
+Every concept must stay simple enough to 3D print on a consumer FDM printer. Check each concept against these rules before presenting it, and do not draw details that would break them.
+
+- **Few parts:** a shell of two or three parts (for example, front bezel, back and buttons) that snap or screw together. Avoid inserts, overmolding and parts made of several materials.
+- **Simple forms:** flat or gently curved faces, with constant fillets and chamfers. No compound curves, organic sculpting or thin fins.
+- **Overhangs:** keep them at 45° or less from vertical in a sensible print orientation. Avoid undercuts that need support material, and use chamfers instead of fillets on edges that face the print bed.
+- **Minimum feature sizes:**
+  - Walls at least 1.6 mm thick.
+  - Raised or debossed details, such as the wordmark and textures, at least 0.6 mm deep.
+  - No lettering or ribs finer than about 1 mm.
+- **Buttons:** separate printed parts with simple prismatic shapes. Include about 0.3 mm of clearance around each opening, and use simple guides or flexures rather than complex mechanisms.
+- **Color and finish:** color comes from the filament of each part, such as colored keys in a different filament. Do not rely on paint, printed graphics or glossy finishes. A matte, slightly layered surface is acceptable.
+- **Openings:** use simple rectangular or slotted cutouts for the screen window and the USB-C port.
+
 ## Sketch style
 
 - Draw every sketch in the style of Koos Eissen and Roselien Steur, as in their books *Sketching* and *Sketching: The Basics*. That means:
@@ -53,8 +68,13 @@ references when generating concepts.
 ## Concepts
 
 - `concepts/01-minimalist-baseline.png` (approved): the baseline minimalist concept. One soft radius on the body, an off-white body, sage green keys and no extra decoration. The user confirmed its button and port layout is correct, so use it as the layout reference for later concepts.
+- `concepts/02-cut-sheet-design-languages.png` (approved): a quick 2×2 cut sheet of four design languages. Its proportions are looser than the baseline (stubbier body, shorter chin, smaller keys). Fix those when developing any of them further.
+  - **Soft:** a pillowy slab with large constant radii. Off-white body with pastel keys.
+  - **Rugged:** a charcoal bumper frame with chamfered corner guards, a recessed screen, screw heads and side grip ribs. Mid-grey body with orange keys and side buttons.
+  - **Angular:** moderate flat 45° chamfers, the same width on every edge, with flat corner facets. Light grey face, graphite chamfer bands and electric blue keys. The user rejected both narrower and much wider chamfers.
+  - **Retro:** cream body with a chocolate-brown chin panel with grooves, and red, orange, mustard and brown keys.
 
 ## Open questions
 
-- Which design directions to explore.
+- Which of the four design languages to develop into full sketches.
 - Whether the layout is strictly fixed, or whether key shape and side-button grouping can change.
