@@ -69,6 +69,7 @@ Every concept must stay simple enough to 3D print on a consumer FDM printer. Che
   - The right side band shows the three side buttons on the half toward the top of the device, and the USB-C port on the half nearer the corner.
   - Keep the device portrait: the long edge is about 1.6 times the short edge, and the body is a slim slab.
 - Keep the wordmark fully clear of the front keys, with its baseline parallel to the bottom edge.
+- When exploring a single feature, such as key variants, use detail sketches instead of full hero views. Crop in on just that region, in the same orientation and style, with each variant labelled below its cell.
 
 ## Concepts
 
@@ -93,6 +94,18 @@ Every concept must stay simple enough to 3D print on a consumer FDM printer. Che
   - Recessed brown pinstripe along the middle of the bottom and right side faces, broken around the buttons and port.
   - Chunky wedge keys in red, orange, mustard and brown, and chocolate-brown side buttons.
   - Printing has not been decided for the pinstripe: it could be a filled groove, a plain shadow groove or a filament color change between layers.
+- `02-retro-key-ideas.png` (approved): a 2×2 sheet of detail sketches of the bottom key variants listed below.
+- `03-retro-cassette-lip-detail.png` (approved): a larger detail of the cassette lip keys.
+- Bottom key variants, drawn as detail sketches:
+  - **Cassette lip:** keys shaped like the front of a white piano key.
+    - Each key has a flat top plate that ends in a pronounced overhanging lip at the bottom edge. Show the underside of the lip as a dark sliver, with a crisp shadow line beneath it.
+    - Under the lip, the key's own flat vertical front face is set back and hangs down in front of the bottom side face.
+    - The overhang belongs to each key; there is no separate ledge on the body.
+    - Debossed ◀◀ ◀ ▶ ▶▶ icons on the key tops point along the row of keys, not up or down.
+  - **Desk console:** the lower chin folds down and away at a crisp crease, and square keys stand on the sloped plane.
+  - **Radio presets:** long push-buttons hang down out of the bottom face and are pressed upward. They have grey caps in brown sleeves, and the chin face is left clean.
+  - **Key well:** the keys sit in a recessed brown tray with 45° chamfered walls.
+  - **Rejected:** hi-fi rocker bars. Do not revisit them.
 
 ## Open questions
 
