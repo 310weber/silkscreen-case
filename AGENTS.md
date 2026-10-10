@@ -31,6 +31,7 @@ references when generating concepts.
 - Keep the layout of the buttons and the port the same across concepts unless the user says otherwise.
 - Save draft images for the user to review under `.amp/in/artifacts/`.
 - Once the user approves a concept, copy it to `concepts/` as `NN-name.png` and commit it.
+- When a design language is developed further, it gets its own folder, `concepts/<language>/`, for example `concepts/retro/`. Number the files in it separately, starting from `01-<language>-baseline.png`.
 
 ## 3D printing constraints
 
@@ -82,6 +83,16 @@ Every concept must stay simple enough to 3D print on a consumer FDM printer. Che
   - **Bookish:** reads like a hardback. Page-edge grooves on the bottom and right faces, in a cream separate part, and a raised oxblood cover border. Keys in cream, tan, oxblood and brown.
   - **Sporty:** off-white body with a lime wrap-around grip band with ridges. The buttons and port pass through openings in the band, and there is a lanyard loop at the near corner. Charcoal keys.
   - **Tactile:** monochrome warm grey. Fuzzy-skin texture on the side faces, smooth around the buttons and port, and recessed V-grooves on either side of the wordmark. Slightly darker keys.
+
+### Retro (`concepts/retro/`)
+
+- `01-retro-baseline.png` (approved): the full hero sketch at baseline proportions and layout.
+  - Cream shell with tight constant radii.
+  - The whole chin is a separate chocolate-brown faceplate with a small chamfer, sitting flush. It carries a raised cream wordmark and a block of five recessed speaker-grille V-grooves to the right of the wordmark.
+  - Thin brown stepped frame around a slightly recessed screen window.
+  - Recessed brown pinstripe along the middle of the bottom and right side faces, broken around the buttons and port.
+  - Chunky wedge keys in red, orange, mustard and brown, and chocolate-brown side buttons.
+  - Printing has not been decided for the pinstripe: it could be a filled groove, a plain shadow groove or a filament color change between layers.
 
 ## Open questions
 
