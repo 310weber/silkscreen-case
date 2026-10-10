@@ -107,6 +107,16 @@ Every concept must stay simple enough to 3D print on a consumer FDM printer. Che
   - **Key well:** the keys sit in a recessed brown tray with 45° chamfered walls.
   - **Rejected:** hi-fi rocker bars. Do not revisit them.
 
+### Bauhaus (`concepts/bauhaus/`)
+
+- `01-bauhaus-baseline.png` (approved): the full hero sketch, combining the Bauhaus language with the cassette lip keys from the retro work.
+  - Calm Braun-style geometry: flat faces and small constant radii.
+  - White front with light grey side faces.
+  - The wordmark is raised tone-on-tone in a geometric sans-serif, not the serif used elsewhere.
+  - Flat, flush-looking light grey side buttons.
+  - Cassette lip keys: the leftmost key is signal orange and the other three are light grey, with ◀◀ ◀ ▶ ▶▶ icons.
+  - Possible refinements: a more pronounced key lip and a clearer ▶ icon on the third key.
+
 ## Open questions
 
 - Which of the eight design languages to develop into full sketches.
