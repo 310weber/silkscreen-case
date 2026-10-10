@@ -46,6 +46,10 @@ Every concept must stay simple enough to 3D print on a consumer FDM printer. Che
 - **Buttons:** separate printed parts with simple prismatic shapes. Include about 0.3 mm of clearance around each opening, and use simple guides or flexures rather than complex mechanisms.
 - **Color and finish:** color comes from the filament of each part, such as colored keys in a different filament. Do not rely on paint, printed graphics or glossy finishes. A matte, slightly layered surface is acceptable.
 - **Openings:** use simple rectangular or slotted cutouts for the screen window and the USB-C port.
+- **Textures:** do not use raised dots, bumps or knurls, especially on vertical walls; the user rejected these as hard to print. Instead use:
+  - Slicer "fuzzy skin" on the side walls, which needs no extra geometry.
+  - A textured build plate for the face that prints against the bed.
+  - Recessed V-grooves with 45° flanks, at least 1 mm wide and generously spaced.
 
 ## Sketch style
 
@@ -73,8 +77,13 @@ Every concept must stay simple enough to 3D print on a consumer FDM printer. Che
   - **Rugged:** a charcoal bumper frame with chamfered corner guards, a recessed screen, screw heads and side grip ribs. Mid-grey body with orange keys and side buttons.
   - **Angular:** moderate flat 45° chamfers, the same width on every edge, with flat corner facets. Light grey face, graphite chamfer bands and electric blue keys. The user rejected both narrower and much wider chamfers.
   - **Retro:** cream body with a chocolate-brown chin panel with grooves, and red, orange, mustard and brown keys.
+- `concepts/03-cut-sheet-design-languages-2.png` (approved): a second 2×2 cut sheet. It has the same loose proportions as sheet 02, so fix them the same way when developing further.
+  - **Bauhaus:** calm Braun-style geometry with small radii and flat dimpled keys. White body, with one signal orange key and three light grey keys.
+  - **Bookish:** reads like a hardback. Page-edge grooves on the bottom and right faces, in a cream separate part, and a raised oxblood cover border. Keys in cream, tan, oxblood and brown.
+  - **Sporty:** off-white body with a lime wrap-around grip band with ridges. The buttons and port pass through openings in the band, and there is a lanyard loop at the near corner. Charcoal keys.
+  - **Tactile:** monochrome warm grey. Fuzzy-skin texture on the side faces, smooth around the buttons and port, and recessed V-grooves on either side of the wordmark. Slightly darker keys.
 
 ## Open questions
 
-- Which of the four design languages to develop into full sketches.
+- Which of the eight design languages to develop into full sketches.
 - Whether the layout is strictly fixed, or whether key shape and side-button grouping can change.
